@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <title>Formulär</title>
+    <link rel="stylesheet" href="styles2.css">
+
+</head>
+<body>
+    <form method="get" action="http://www.jarfalla.se/variables.php">
+        <h4>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" placeholder="Skriv in ditt namn" required>
+        <h4>
+        <h4>
+            <label for="personnr">Personnr:</label>
+            <input type="text" id="personnr" name="personnr" placeholder="yymmddxxxx" required>
+        <h4>
+
+
+        <legend>Vad är roligast?</legend>
+            <h4> <label><input type="radio" name="answer" value="Matte"> Matte</label><h4>
+            <h4><label><input type="radio" name="answer" value="Webbutveckling"> Webbutveckling</label><h4>
+            <h4><label><input type="radio" name="answer" value="Programmering"> Programmering</label><h4>
+        
+        <legend>Vad vill du lära dig mer om?</legend>
+            <h4> <label><input type="checkbox" name="answer" value="PHP"> PHP</label><h4>
+            <h4><label><input type="checkbox" name="answer" value="HTML5"> HTML5</label><h4>
+            <h4><label><input type="checkbox" name="answer" value="Javascript"> Javascript</label><h4>
+        
+        <legend>Vad tycker du om Webbutveckling?
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </legend>
+        </h4>
+            <button type="submit">Skicka</button>
+        <h4>
+    </form>
+</body>
+</html> 
